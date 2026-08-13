@@ -19,47 +19,47 @@
         </activity>
 
         <!-- PS5 station widgets -->
-        <receiver android:name=".widget.Ps5Station1WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.Ps5Station1WidgetReceiver" android:label="PS5 Station 1" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.Ps5Station2WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.Ps5Station2WidgetReceiver" android:label="PS5 Station 2" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.Ps5Station3WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.Ps5Station3WidgetReceiver" android:label="PS5 Station 3" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.Ps5Station4WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.Ps5Station4WidgetReceiver" android:label="PS5 Station 4" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
 
         <!-- Xbox station widgets -->
-        <receiver android:name=".widget.XboxStation1WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.XboxStation1WidgetReceiver" android:label="Xbox Station 1" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.XboxStation2WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.XboxStation2WidgetReceiver" android:label="Xbox Station 2" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.XboxStation3WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.XboxStation3WidgetReceiver" android:label="Xbox Station 3" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
-        <receiver android:name=".widget.XboxStation4WidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.XboxStation4WidgetReceiver" android:label="Xbox Station 4" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/station_widget_info" />
         </receiver>
 
         <!-- Group total widgets -->
-        <receiver android:name=".widget.Ps5TotalWidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.Ps5TotalWidgetReceiver" android:label="PS5 Total" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/total_widget_info" />
         </receiver>
-        <receiver android:name=".widget.XboxTotalWidgetReceiver" android:exported="false">
+        <receiver android:name=".widget.XboxTotalWidgetReceiver" android:label="Xbox Total" android:exported="false">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/total_widget_info" />
         </receiver>
