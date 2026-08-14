@@ -91,7 +91,7 @@ private fun TotalContent(group: Group, total: Int) {
             Text(
                 text = total.toString(),
                 style = TextStyle(
-                    fontSize = 22.sp,
+                    fontSize = 32.sp,
                     fontWeight = FontWeight.Bold,
                     color = ColorProvider(Color.White)
                 )
