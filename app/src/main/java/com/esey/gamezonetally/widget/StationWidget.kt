@@ -122,7 +122,7 @@ private fun StationContent(station: Station, count: Int) {
             Text(
                 text = count.toString(),
                 style = TextStyle(
-                    fontSize = 24.sp,
+                    fontSize = 28.sp,
                     fontWeight = FontWeight.Bold,
                     color = UnitColorProvider(ComposeColor.Black),
                     textAlign = TextAlign.Center
